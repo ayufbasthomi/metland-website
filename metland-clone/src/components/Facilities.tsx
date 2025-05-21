@@ -1,16 +1,28 @@
 import React from "react";
 
+import hospital from "../assets/facilities/hospital.jpg";
+import transportation from "../assets/facilities/trainstation.jpg";
+import transportation1 from "../assets/facilities/trainstation1.jpg";
+import school from "../assets/facilities/school.png";
+import jababeka from "../assets/facilities/jababeka.jpg";
+import mm2100 from "../assets/facilities/mm2100.jpg";
+import sgc from "../assets/facilities/SGC.jpg";
+import telaga_asih from "../assets/facilities/tol.jpeg";
+import gabus from "../assets/facilities/tol-gabus.jpg";
+import terminal from "../assets/facilities/terminal.jpg";
+
+
 const facilities = [
-  { image: "/src/assets/facilities/hospital.jpg", label: "Rumah Sakit Hermina" },
-  { image: "/src/assets/facilities/trainstation.jpg", label: "Stasiun Metland Telaga Murni" },
-  { image: "/src/assets/facilities/trainstation1.jpg", label: "Stasiun Cikarang" },
-  { image: "/src/assets/facilities/school.png", label: "Al-Azhar" },
-  { image: "/src/assets/facilities/jababeka.jpg", label: "Kawasan Industri Jababeka" },
-  { image: "/src/assets/facilities/mm2100.jpg", label: "Kawasan Industri MM2100" },
-  { image: "/src/assets/facilities/SGC.jpg", label: "Pasar Modern" },
-  { image: "/src/assets/facilities/tol.jpeg", label: "Gate Tol Telaga Asih" },
-  { image: "/src/assets/facilities/tol-gabus.jpg", label: "Gate Tol Gabus" },
-  { image: "/src/assets/facilities/terminal.jpg", label: "Terminal Cikarang" },
+  { image: hospital, label: "Rumah Sakit Hermina" },
+  { image: transportation, label: "Stasiun Metland Telaga Murni" },
+  { image: transportation1, label: "Stasiun Cikarang" },
+  { image: school, label: "Al-Azhar" },
+  { image: jababeka, label: "Kawasan Industri Jababeka" },
+  { image: mm2100, label: "Kawasan Industri MM2100" },
+  { image: sgc, label: "Pasar Modern" },
+  { image: telaga_asih, label: "Gate Tol Telaga Asih" },
+  { image: gabus, label: "Gate Tol Gabus" },
+  { image: terminal, label: "Terminal Cikarang" },
 ];
 
 const Facilities = () => {
