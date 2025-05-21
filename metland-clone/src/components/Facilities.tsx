@@ -4,7 +4,7 @@ import hospital from "../assets/facilities/hospital.jpg";
 import transportation from "../assets/facilities/trainstation.jpg";
 import transportation1 from "../assets/facilities/trainstation1.jpg";
 import school from "../assets/facilities/school.png";
-import jababeka from "../assets/facilities/jababeka.jpg";
+import jababeka from "../assets/facilities/Jababeka.jpg";
 import mm2100 from "../assets/facilities/mm2100.jpg";
 import sgc from "../assets/facilities/SGC.jpg";
 import telaga_asih from "../assets/facilities/tol.jpeg";
