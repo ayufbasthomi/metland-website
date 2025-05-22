@@ -9,12 +9,14 @@ import Footer from './Footer';
 import UnitTypes from './components/UnitTypes';
 import Facilities from './components/Facilities';
 import WhatsAppFloatingButton from './components/WhatsAppFloatingButton'; // ✅ Add this
+import UpdateSection from './components/UpdateSection';
 
 function App() {
   return (
     <div>
       <Navbar />
       <div id="hero"><Hero /></div>
+      <div id="update"><UpdateSection /></div>
       <Tentang />
       <div id="unittypes"><UnitTypes /></div>
       <div id="facilities"><Facilities /></div>
