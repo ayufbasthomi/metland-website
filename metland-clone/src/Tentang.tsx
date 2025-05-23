@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Tentang() {
   return (
-    <section id="tentang" className="py-10 px-4 max-w-4xl mx-auto">
+    <section id="tentang" className="py-10 px-4 max-w-screen-2xl mx-auto">
       <h2 className="text-3xl font-bold mb-4 text-center">Tentang Kami</h2>
       <p className="text-gray-700 text-justify">
         Metland Cikarang adalah kawasan hunian terpadu yang menghadirkan kenyamanan dan kemudahan akses di wilayah Cikarang.
