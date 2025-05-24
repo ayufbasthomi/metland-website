@@ -1,14 +1,15 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/(.*)",
+      "source": "/:path*",
       "has": [
         {
           "type": "host",
           "value": "metland-cikarang-official.site"
         }
       ],
-      "destination": "https://metland-cikarang-official.com/:1",
+      "destination": "https://metland-cikarang-official.com/:path*",
       "permanent": true
     }
   ]
