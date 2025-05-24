@@ -1,4 +1,31 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://metland-cikarang-official.com/sitemap.xml
+{
+  "rewrites": [
+    {
+      "source": "/robots.txt",
+      "has": [
+        {
+          "type": "host",
+          "value": "metland-cikarang-official.site"
+        }
+      ],
+      "destination": "/robots-site.txt"
+    },
+    {
+      "source": "/robots.txt",
+      "destination": "/robots-com.txt"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "metland-cikarang-official.site"
+        }
+      ],
+      "destination": "https://metland-cikarang-official.com/:path*",
+      "permanent": true
+    }
+  ]
+}
