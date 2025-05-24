@@ -1,27 +1,43 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "metland-cikarang-official.site"
-        }
-      ],
-      "destination": "https://metland-cikarang-official.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.metland-cikarang-official.site"
-        }
-      ],
-      "destination": "https://metland-cikarang-official.com/:path*",
-      "permanent": true
-    }
-  ]
+        "rewrites": [
+            {
+            "source": "/robots.txt",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "metland-cikarang-official.site"
+                }
+            ],
+            "destination": "/robots-site.txt"
+            },
+            {
+                "source": "/robots.txt",
+                "destination": "/robots-com.txt"
+            }
+        ],
+        "redirects": [
+            {
+            "source": "/:path*",
+            "has": [
+                {
+                "type": "host",
+                "value": "metland-cikarang-official.site"
+                }
+            ],
+            "destination": "https://metland-cikarang-official.com/:path*",
+            "permanent": true
+            },
+            {
+            "source": "/:path*",
+            "has": [
+                {
+                "type": "host",
+                "value": "www.metland-cikarang-official.site"
+                }
+            ],
+            "destination": "https://metland-cikarang-official.com/:path*",
+            "permanent": true
+            }
+        ]
 }
