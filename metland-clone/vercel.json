@@ -11,6 +11,17 @@
       ],
       "destination": "https://metland-cikarang-official.com/:path*",
       "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.metland-cikarang-official.site"
+        }
+      ],
+      "destination": "https://metland-cikarang-official.com/:path*",
+      "permanent": true
     }
   ]
 }
