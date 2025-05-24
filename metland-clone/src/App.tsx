@@ -13,6 +13,8 @@ import Facilities from './components/Facilities';
 import WhatsAppFloatingButton from './components/WhatsAppFloatingButton';
 import UpdateSection from './components/UpdateSection';
 
+const isSiteDomain = window.location.hostname.includes(".site");
+
 function App() {
   return (
     <div>
@@ -20,7 +22,7 @@ function App() {
         <title>Metland Cikarang - Rumah Strategis & Modern</title>
         <meta name="description" content="Metland Cikarang menawarkan rumah minimalis dengan harga terjangkau di lokasi strategis." />
         <meta name="keywords" content="metland cikarang, rumah murah cikarang, cluster cikarang" />
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content={isSiteDomain ? "noindex, nofollow" : "index, follow"} />
       </Helmet>
       <Navbar />
       <div id="hero"><Hero /></div>

@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "metland-cikarang-official.site"
+        }
+      ],
+      "destination": "https://metland-cikarang-official.com/:1",
+      "permanent": true
+    }
+  ]
+}
