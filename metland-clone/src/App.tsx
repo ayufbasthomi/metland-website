@@ -24,6 +24,10 @@ function App() {
         <meta name="description" content="Metland Cikarang menawarkan rumah minimalis dengan harga terjangkau di lokasi strategis." />
         <meta name="keywords" content="metland cikarang, rumah murah cikarang, cluster cikarang" />
         <meta name="robots" content={isSiteDomain ? "noindex, nofollow" : "index, follow"} />
+        <meta property="og:title" content="Perumahan Idaman di Bekasi | Metland Cikarang" />
+        <meta property="og:description" content="Kawasan hunian modern dan strategis di Cikarang dengan berbagai fasilitas." />
+        <meta property="og:image" content="https://www.metland-cikarang-official.com/event.png"/>
+        <meta property="og:url" content="https://metland-cikarang-official.com" />
       </Helmet>
       <Navbar />
       <div id="hero"><Hero /></div>
