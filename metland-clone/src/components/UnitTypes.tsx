@@ -15,8 +15,10 @@ import type22 from "../assets/unit-types/type22.jpg";
 import type30 from "../assets/unit-types/type30.jpg";
 import type36 from "../assets/unit-types/type36.jpg";
 import type37 from "../assets/unit-types/type37.jpg";
+import type37_1 from "../assets/unit-types/type37_1.png";
 import type50 from "../assets/unit-types/type50.jpg";
 import type59 from "../assets/unit-types/type59.jpg";
+import type59_1 from "../assets/unit-types/type59_1.png";
 
 const units: Unit[] = [
   {
@@ -25,7 +27,7 @@ const units: Unit[] = [
     lt: "2",
     kt: "3",
     km: "1",
-    images: [type59],
+    images: [type59, type59_1],
     price: "Mulai dari Rp 800 Jutaan",
   },
   {
@@ -34,7 +36,7 @@ const units: Unit[] = [
     lt: "1",
     kt: "2",
     km: "1",
-    images: [type37],
+    images: [type37, type37_1],
     price: "Mulai dari Rp 600 Jutaan",
   },
   {
