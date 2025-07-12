@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function LocationMap() {
   return (
-    <section id="location" className="py-10 px-4 max-w-5xl mx-auto">
+    <section id="location" className="py-10 px-4 max-w-7xl mx-auto">
       <h2 className="text-3xl font-bold mb-6 text-center">Lokasi</h2>
 
       <div className="aspect-video w-full rounded-lg overflow-hidden shadow-md mb-4">

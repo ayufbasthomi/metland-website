@@ -14,6 +14,7 @@ const Navbar = () => {
           </li>
           <li><a href="#project">Home</a></li>
           <li><a href="#unittypes">Unit</a></li>
+          <li><a href="#virtualtour">Virtual Tour</a></li>
           <li><a href="#facilities">Fasilitas</a></li>
           <li><a href="#gallery">Galeri</a></li>
           <li><a href="#location">Lokasi</a></li>

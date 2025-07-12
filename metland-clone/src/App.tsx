@@ -12,6 +12,7 @@ import UnitTypes from './components/UnitTypes';
 import Facilities from './components/Facilities';
 import WhatsAppFloatingButton from './components/WhatsAppFloatingButton';
 import UpdateSection from './components/UpdateSection';
+import VirtualTour from './VirtualTour';
 
 const isSiteDomain = window.location.hostname.includes(".site");
 
@@ -34,10 +35,12 @@ function App() {
       <div id="update"><UpdateSection /></div>
       <Tentang />
       <div id="unittypes"><UnitTypes /></div>
+      <div id="virtualtour"><VirtualTour/></div>
       <div id="facilities"><Facilities /></div>
       <div id="galeri"><Gallery /></div>
       <div id="lokasi"><LocationMap /></div>
       <div id="kontak"><ContactForm /></div>
+
       <Footer />
       <WhatsAppFloatingButton />
     </div>
